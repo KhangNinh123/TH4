@@ -1,0 +1,283 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#center {
+    width: 910px;
+    border-right: 1px solid rgba(180, 175, 175,0.2);
+    margin-left: 40px;
+    /* padding-right: 40px; */
+}
+
+#right {
+    width: 440px;
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgba(180, 175, 175,0.2);
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+#setting {
+    margin-top: 36px;
+}
+.header-center {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header-center .time {
+    display: flex;
+    margin-right: 40px;
+    height: 35px;
+    width: 90px;
+    border: 1px solid #F56C71;
+    color: #F22128;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.nav-center {
+    display: flex;
+}
+.nav-center .user{
+    border: 1px solid #E34D73;
+    border-radius: 20px;
+    background-color: #E34D73;
+    
+    height: 25px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+.nav-center .user a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-center .day{
+    position: relative;
+    left: 0;
+    bottom: -5px;
+    padding:0 15px 0 15px;
+}
+.nav-center .day a{
+    border-right: 1px solid #111;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.nav-center .time{
+    position: relative;
+    bottom: -6px;
+}
+.article-center {
+    margin-top: 35px;
+    position: relative;
+    right: -15px;
+}
+
+.article-center .bg-big .mic {
+    position: absolute;
+    left: 770px;
+    top: 15px;
+}
+.article-center .bg-big .name{
+    border: 1px solid black;
+    background-color: rgb(117,118,121);
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    opacity: 0.8;
+    position: relative;
+    left: 25px;
+    bottom: 450px;
+}
+.article-center .bg-small {
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.article-center .bg-small .user .name{
+    border: 1px solid black;
+    background-color: rgba(117,118,121,0.5);
+    border-radius: 10px;
+    padding: 3px;
+    width: 110px;
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    opacity: 0.8;
+    position: relative;
+    left: 10px;
+    bottom: 155px;
+}
+.article-center .bg-small .user .mic{
+    border: 1px solid black;
+    background-color: rgba(117,118,121,0.5);
+    padding: 4px;
+    position: relative;
+    left: 220px;
+    bottom: 180px;
+}
+.article-center .button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: unset;
+    bottom: 60px;
+}
+.article-center .button img{
+    padding-right: 15px;
+}
+.article-center .button button{
+    margin-right: 15px;
+    background-color: #F22128;
+    color: #fff;
+    width: 125px;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    
+}
+#right .header-right .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.header-right .title .add {
+    color: rgb(231, 79, 79);
+    border: 1px solid rgb(231, 79, 79);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.center-right .enforcement {
+    list-style: none;
+    border-bottom: 1px solid rgba(180, 175, 175,0.2);
+    width: 100%;
+}
+
+.center-right .enforcement .user {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.center-right .enforcement .user .user-name p {
+    display: inline-flex;
+    position: relative;
+    bottom: 15px;
+    font-size: 17px;
+}
+
+.center-right .enforcement .user .icon ul {
+    list-style: none;
+    display: flex;
+}
+
+.center-right .enforcement .user .icon ul li a {
+    text-decoration: none;
+    position: relative;
+    font-size: 25px;
+    bottom: 10px;
+}
+.center-bottom {
+    margin-top: 33px;
+}
+.center-bottom .chat{
+    list-style: none;
+} 
+.center-bottom .chat .user .name{
+    text-decoration:  none;
+    position: relative;
+    left: 0;
+    bottom: 13px;
+    color: black;
+    font-weight: bold;
+}
+.center-bottom .chat .user .time{
+    text-decoration:  none;
+    position: relative;
+    left: 0;
+    bottom: 13px;
+    color: black;
+    opacity: 0.5;
+    font-size: 12px;
+}
+.center-bottom .chat .user .comment{
+    margin-left: 40px;
+    border: 1px solid rgba(180, 175, 175,0.2);
+    border: 0;
+    padding: 12px;
+    font-size: 17px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgba(180, 175, 175,0.1);
+}
+.center-bottom .chat .input {
+    display: flex;
+}
+.center-bottom .chat .input .input-all{
+    background-color: rgba(180, 175, 175,0.1);
+    width: 330px;
+    height: 40px;
+    border: 0;
+}
+.center-bottom .chat .input .input-all input{
+    border: 0;
+    width: 85%;
+    height: 100%;
+    background-color: rgba(180, 175, 175,0.1);
+    font-size: 100%;
+    outline: 0;
+    flex-grow: 1;
+}
+.center-bottom .chat .input .input-all img {
+    position: relative;
+    top: 5px;
+}
